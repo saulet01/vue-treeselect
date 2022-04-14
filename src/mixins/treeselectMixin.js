@@ -592,6 +592,14 @@ export default {
     },
 
     /**
+     * Tab index of the control.
+     */
+    inputMask: {
+      type: String,
+      default: '',
+    },
+
+    /**
      * The value of the control.
      * Should be `id` or `node` object for single-select mode, or an array of `id` or `node` object for multi-select mode.
      * Its format depends on the `valueFormat` prop.

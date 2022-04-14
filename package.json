@@ -1,11 +1,11 @@
 {
-  "name": "@riophae/vue-treeselect",
-  "version": "0.4.0",
+  "name": "vue-treeselect-mask",
+  "version": "1.0.0",
   "description": "A multi-select component with nested options support for Vue.js",
   "author": "Riophae Lee <riophaelee@gmail.com>",
   "license": "MIT",
   "homepage": "https://vue-treeselect.js.org/",
-  "repository": "riophae/vue-treeselect",
+  "repository": "vue-treeselect-mask",
   "main": "dist/vue-treeselect.cjs.js",
   "unpkg": "dist/vue-treeselect.umd.min.js",
   "css": "dist/vue-treeselect.min.css",
@@ -39,6 +39,7 @@
     "is-promise": "^2.1.0",
     "lodash": "^4.0.0",
     "material-colors": "^1.2.6",
+    "v-mask": "^2.3.0",
     "watch-size": "^2.0.0"
   },
   "devDependencies": {

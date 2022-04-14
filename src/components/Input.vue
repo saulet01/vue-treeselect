@@ -1,4 +1,5 @@
 <script>
+  import { VueMaskDirective } from 'v-mask'
   import { debounce, deepExtend, includes } from '../utils'
   import { MIN_INPUT_WIDTH, KEY_CODES, INPUT_DEBOUNCE_DELAY } from '../constants'
 
@@ -15,6 +16,10 @@
   export default {
     name: 'vue-treeselect--input',
     inject: [ 'instance' ],
+
+    directives: {
+      mask: VueMaskDirective,
+    },
 
     data: () => ({
       inputWidth: MIN_INPUT_WIDTH,
@@ -255,6 +260,7 @@
             class="vue-treeselect__input"
             type="text"
             autocomplete="off"
+            v-mask={instance.inputMask}
             tabIndex={instance.tabIndex}
             required={instance.required && !instance.hasValue}
             value={this.value}
