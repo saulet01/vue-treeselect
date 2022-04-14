@@ -1,6 +1,6 @@
 {
   "name": "vue-treeselect-mask",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A multi-select component with nested options support for Vue.js",
   "author": "Riophae Lee <riophaelee@gmail.com>",
   "license": "MIT",
